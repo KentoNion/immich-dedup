@@ -13,6 +13,12 @@ Use the site URL without `/api`. The key needs access to duplicates. Trashing ne
 
 ## Run
 
+### Run everything
+```bash
+IMMICH_URL=<immich url> IMMICH_API_KEY=<immich api key> python3 dedup.py --apply
+```
+
+### Run some scenario
 ```bash
 python3 dedup.py
 python3 dedup.py --apply
